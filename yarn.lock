@@ -2215,15 +2215,15 @@
     tiny-invariant "^1.1.0"
     toformat "^2.0.0"
 
-"@uniswap/sdk-core@^4.1.2":
+"@uniswap/sdk-core@https://github.com/Mantle-Protocol/sdk-core":
   version "4.1.2"
-  resolved "https://registry.yarnpkg.com/@uniswap/sdk-core/-/sdk-core-4.1.2.tgz#8bf64ef6881574f1c3a3c5800916aa2b2965d00a"
-  integrity sha512-bk/oHiNCofy48ix84Q8aK/HHDmMVmk+SaoTq6U/93MmJ/nE7hbsckmY1c3MG2Vz1+jnGMCX9AmdBbnSF7VR5Ow==
+  resolved "https://github.com/Mantle-Protocol/sdk-core#3262b43c2bf9144907bcb1d5041c90d193ce8d8c"
   dependencies:
     "@ethersproject/address" "^5.0.2"
+    "@ethersproject/bignumber" "^5.7.0"
     big.js "^5.2.2"
     decimal.js-light "^2.5.0"
-    jsbi "^3.1.4"
+    jsbi "^3.2.0"
     tiny-invariant "^1.1.0"
     toformat "^2.0.0"
 
@@ -2251,8 +2251,9 @@
     dotenv "^14.2.0"
     hardhat-watcher "^2.1.1"
 
-"@uniswap/universal-router@file:../universal-router":
+"@uniswap/universal-router@https://github.com/Mantle-Protocol/universal-router":
   version "1.6.0"
+  resolved "https://github.com/Mantle-Protocol/universal-router#1d65f09845d6cd2d86be7b7af997416686fe44f7"
   dependencies:
     "@openzeppelin/contracts" "4.7.0"
     "@uniswap/v2-core" "1.0.1"
@@ -5737,7 +5738,7 @@ js-yaml@^3.13.1:
     argparse "^1.0.7"
     esprima "^4.0.0"
 
-jsbi@^3.1.4:
+jsbi@^3.1.4, jsbi@^3.2.0:
   version "3.2.5"
   resolved "https://registry.npmjs.org/jsbi/-/jsbi-3.2.5.tgz"
   integrity sha512-aBE4n43IPvjaddScbvWRA2YlTzKEynHzu7MqOyTipdHucf/VxS63ViCjxYRg86M8Rxwbt/GfzHl1kKERkt45fQ==
